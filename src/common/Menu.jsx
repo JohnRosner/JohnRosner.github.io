@@ -13,7 +13,7 @@ export const Menu = (props) => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        John Rosner's Personal Site
+                        John Rosner
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}> 
                         {props.pages.map((page) => (        

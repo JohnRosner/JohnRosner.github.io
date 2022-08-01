@@ -5,7 +5,7 @@ import { Typography } from "@mui/material"
 
 export const Games = () => {
     return (
-        <Typography variant='h1'>
+        <Typography variant='h2'>
             Games
         </Typography>
     )
