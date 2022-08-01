@@ -12,9 +12,9 @@ export const Menu = (props) => {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         John Rosner
-                    </Typography>
+                    </Typography> */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}> 
                         {props.pages.map((page) => (        
                             <Button key={page.id} onClick={() => navigate(`/${page.id}`)} color={'inherit'}>

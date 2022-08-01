@@ -29,7 +29,7 @@ export const Home = () => {
                 </Grid>
                 <Grid item md={12}>
                     <Typography variant='p'>
-                        Check out the cool stuff here!
+                        Check out the cool stuff here! This site is still a work in progress and I will be adding more to it soon.
                     </Typography>
                 </Grid>
             </Grid>
