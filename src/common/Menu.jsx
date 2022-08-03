@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FormControlLabel, Switch, AppBar, Toolbar, Typography, Button } from "@mui/material"
+import { FormControlLabel, Switch, AppBar, Toolbar, Button } from "@mui/material"
 
 import { useNavigate } from 'react-router-dom';
 import { Box } from '@mui/system';
@@ -27,7 +27,7 @@ export const Menu = (props) => {
                     </Box> 
                     <FormControlLabel 
                         label={props.darkMode ? 'Dark' : 'Light'} 
-                        control={<Switch onChange={() => props.setDarkMode(!props.darkMode)} defaultChecked />} 
+                        control={<Switch onChange={() => props.setDarkMode(!props.darkMode)} defaultChecked={props.defaultDark} />} 
                         labelPlacement='end' 
                     />
                 </Toolbar>

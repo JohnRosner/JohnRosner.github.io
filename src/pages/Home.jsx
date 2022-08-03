@@ -1,12 +1,22 @@
 import React from 'react';
 
-import { Grid, Stack, Typography } from "@mui/material"
+import { Button, Grid, Stack, Typography } from "@mui/material";
+import { useNavigate } from 'react-router-dom';
 
 
-export const Home = () => {
+const imgStyle = {
+	'max-width': '100%',
+}
+
+const buttonStyle = {
+    'width': '100%',
+}
+
+export const Home = (props) => {
+    let navigate = useNavigate()
+
     return (
         <Stack>
-            
             <Grid container spacing={2}>
                 <Grid item md={8}>
                     <Typography variant='h2'>
@@ -25,11 +35,34 @@ export const Home = () => {
                     </Typography>
                 </Grid>
                 <Grid item md={4}>
-                    <img src='./JohnSenior.jpg' height={320} width={250} alt={'John'} />
+                    <img src='./JohnSenior.jpg' alt={'John'} style={imgStyle} />
                 </Grid>
                 <Grid item md={12}>
                     <Typography variant='p'>
-                        Check out the cool stuff here! This site is still a work in progress and I will be adding more to it soon.
+                        Go ahead and explore my website! 
+                    </Typography>
+                </Grid>
+                {props.pages.map((page) => {
+                    if (page.id === '') return <></>;
+                    return (
+                        <>
+                            <Grid item md={3}>
+                                <Button variant="contained" style={buttonStyle} onClick={() => navigate(`/${page.id}`)}>{page.label}</Button>
+                            </Grid>
+                            <Grid item md={9}>
+                                <Typography variant="p">
+                                    {page.description}
+                                </Typography>
+                            </Grid>
+                        </>
+                    )
+                })}
+                <Grid item md={3}>
+                    <Button variant="contained" style={buttonStyle} onClick={() => window.open('https://www.linkedin.com/in/john-rosner/')}>Connect</Button>
+                </Grid>
+                <Grid item md={9}>
+                    <Typography variant="p">
+                        Connect with me on LinkedIn!
                     </Typography>
                 </Grid>
             </Grid>

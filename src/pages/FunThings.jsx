@@ -2,6 +2,12 @@ import React from 'react';
 
 import { Grid, Stack, Typography } from "@mui/material"
 
+const videoStyle = {
+    'max-width': '100%',
+    width: '720px',
+    height: '405px',
+}
+
 export const FunThings = () => {
     return (
         <Stack spacing={2}>
@@ -11,8 +17,7 @@ export const FunThings = () => {
             <Grid container spacing={2}>
                 <Grid item md={8}>
                     <iframe
-                        width="720"
-                        height="405"
+                        style={videoStyle}
                         src={'https://www.youtube.com/embed/O4rViAGmN9w'}
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -30,8 +35,7 @@ export const FunThings = () => {
                 </Grid>
                 <Grid item md={8}>
                     <iframe
-                        width="720"
-                        height="405"
+                        style={videoStyle}
                         src={'https://www.youtube.com/embed/RB9vJpNYuL0'}
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -41,8 +45,7 @@ export const FunThings = () => {
                 </Grid>
                 <Grid item md={8}>
                     <iframe
-                        width="720"
-                        height="405"
+                        style={videoStyle}
                         src={'https://www.youtube.com/embed/4czjS9h4Fpg'}
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

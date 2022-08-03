@@ -2,6 +2,11 @@ import React from 'react';
 
 import { Stack, Typography } from "@mui/material"
 
+const videoStyle = {
+    'max-width': '100%',
+    width: '720px',
+    height: '405px',
+}
 
 export const Experience = () => {
     return (
@@ -10,11 +15,10 @@ export const Experience = () => {
                 Experience
             </Typography>
             <Typography variant='p'>
-                I got 2 internships at Amazon. I did robotics in high school. I did this cool project
+                I did this cool project
             </Typography>
             <iframe
-                width="720"
-                height="405"
+                style={videoStyle}
                 src={'https://www.youtube.com/embed/uV2OP7v6lY0'}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
