@@ -8,7 +8,7 @@ import {
 import { Menu } from './common';
 import { Experience } from './pages/Experience';
 import { Home } from './pages/Home';
-import { Games } from './pages/Games';
+// import { Games } from './pages/Games';
 import { FunThings } from './pages/FunThings';
 import { About } from './pages/About';
 
@@ -34,11 +34,11 @@ const pages = [
         label: 'Fun Things',
         description: 'A page of various fun things I\'ve found on the internet',
     }, 
-    {
-        id: 'games',
-        label: 'Games',
-        description: 'Soon I hope to make some simple games and put them here!',
-    }, 
+    // {
+    //     id: 'games',
+    //     label: 'Games',
+    //     description: 'Soon I hope to make some simple games and put them here!',
+    // }, 
 ];
 
 const darkTheme = createTheme({
@@ -74,7 +74,7 @@ function App() {
                     <Route path={pages[1].id} element={<About />}/>
                     <Route path={pages[2].id} element={<Experience />} />
                     <Route path={pages[3].id} element={<FunThings />} />
-                    <Route path={pages[4].id} element={<Games />} />
+                    {/* <Route path={pages[4].id} element={<Games />} /> */}
                 </Routes>
             </Container>
         </ThemeProvider>
