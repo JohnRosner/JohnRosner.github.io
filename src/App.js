@@ -72,7 +72,7 @@ function App() {
                 <Routes>
                     <Route path={pages[0].id} element={<Home pages={pages} />} />
                     <Route path={pages[1].id} element={<About />}/>
-                    <Route path={pages[2].id} element={<Experience />} />
+                    <Route path={pages[2].id} element={<Experience dark={darkMode} />} />
                     <Route path={pages[3].id} element={<FunThings />} />
                     {/* <Route path={pages[4].id} element={<Games />} /> */}
                 </Routes>

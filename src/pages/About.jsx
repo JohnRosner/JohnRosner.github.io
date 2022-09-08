@@ -50,6 +50,7 @@ export const About = () => {
 					<img src='MMB.jpeg' alt='John in the MMB' style={imgStyle} />
 				</Grid>
 			</Grid>
+			<br/>
 		</ Stack>
 	);
 }

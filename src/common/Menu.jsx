@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FormControlLabel, Switch, AppBar, Toolbar, Button } from "@mui/material"
+import { Switch, AppBar, Toolbar, Button, Typography, Stack } from "@mui/material"
 
 import { useNavigate } from 'react-router-dom';
 import { Box } from '@mui/system';
@@ -12,10 +12,7 @@ export const Menu = (props) => {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar>
-                    {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        John Rosner
-                    </Typography> */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}> 
+                    <Box sx={{ flexGrow: 1 }}> 
                         {props.pages.map((page) => (        
                             <Button key={page.id} onClick={() => navigate(`/${page.id}`)} color={'inherit'}>
                                 {page.label}
@@ -25,11 +22,15 @@ export const Menu = (props) => {
                             Connect
                         </Button>
                     </Box> 
-                    <FormControlLabel 
-                        label={props.darkMode ? 'Dark' : 'Light'} 
-                        control={<Switch onChange={() => props.setDarkMode(!props.darkMode)} defaultChecked={props.defaultDark} />} 
-                        labelPlacement='end' 
-                    />
+                    <Stack direction={'row'} alignItems={'center'}>
+                        <Typography>
+                            Light
+                        </Typography>
+                        <Switch onChange={() => props.setDarkMode(!props.darkMode)} defaultChecked={props.defaultDark} />
+                        <Typography>
+                            Dark
+                        </Typography>
+                    </Stack>
                 </Toolbar>
             </AppBar>
         </Box>

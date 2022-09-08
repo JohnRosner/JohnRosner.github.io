@@ -1,19 +1,19 @@
 import React from 'react';
 
-import { Button, Grid, Stack, Typography } from "@mui/material";
-import { useNavigate } from 'react-router-dom';
+import { Grid, Stack, Typography } from "@mui/material";
+// import { useNavigate } from 'react-router-dom';
 
 
 const imgStyle = {
 	'max-width': '100%',
 }
 
-const buttonStyle = {
-    'width': '100%',
-}
+// const buttonStyle = {
+//     'width': '100%',
+// }
 
 export const Home = (props) => {
-    let navigate = useNavigate()
+    // let navigate = useNavigate()
 
     return (
         <Stack>
@@ -32,12 +32,15 @@ export const Home = (props) => {
                         the opportunity to develop my skills in the real world. Outside of classes, I play trombone in
                         the Michigan Marching Band. I am currently searching for full time opportunities for after 
                         I graduate in December 2022!
+                        <br/>
+                        <br/>
+                        Go ahead and explore my website!
                     </Typography>
                 </Grid>
                 <Grid item md={4}>
                     <img src='./JohnSenior.jpg' alt={'John'} style={imgStyle} />
                 </Grid>
-                <Grid item md={12}>
+                {/* <Grid item md={12}>
                     <Typography variant='p'>
                         Go ahead and explore my website! 
                     </Typography>
@@ -64,7 +67,7 @@ export const Home = (props) => {
                     <Typography variant="p">
                         Connect with me on LinkedIn!
                     </Typography>
-                </Grid>
+                </Grid> */}
             </Grid>
         </Stack>
     )
