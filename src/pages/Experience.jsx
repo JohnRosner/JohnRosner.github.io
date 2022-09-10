@@ -55,7 +55,7 @@ export const Experience = ({ dark }) => {
                         creating a tool to automate and organize this process. I developed this tool in two parts: a back-end service 
                         written in Java, and a front-end written with React. The hardest part for me during this internship was dealing 
                         with the infrastructure of my project. Everything had to be set up: the code repositories, the AWS accounts 
-                        the project would be deployed two, the pipeline that would deploy the code, and much more. I spent the first 
+                        the project would be deployed to, the pipeline that would deploy the code, and much more. I spent the first 
                         half of the internship setting up the infrastructure and creating the back-end and the remaining half creating 
                         the front-end. Unfortunately, I did not finish the project. The biggest remaining piece was connecting the 
                         front-end to the back-end, which I was unable to accomplish. I had still learned a lot about software 

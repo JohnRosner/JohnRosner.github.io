@@ -28,7 +28,7 @@ export const Home = (props) => {
                     <Typography variant='p'>
                         I am a Senior at the University of Michigan studying Computer Science with a minor in Music.
                         I have a strong interest in and am seeking a career in Autonomous Robotics. I have successfully
-                        completed 2 summer internships at Amazon as a Software Development Engineer where I have gotten 
+                        completed 2 summer internships at Amazon as a Software Development Engineer where I had 
                         the opportunity to develop my skills in the real world. Outside of classes, I play trombone in
                         the Michigan Marching Band. I am currently searching for full time opportunities for after 
                         I graduate in December 2022!
