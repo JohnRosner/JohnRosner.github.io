@@ -4,4 +4,4 @@ This is the repository hosting my personal website.
 
 It's created with React.
 
-View it at https://johnrosner.net
+View it at https://www.johnrosner.net
