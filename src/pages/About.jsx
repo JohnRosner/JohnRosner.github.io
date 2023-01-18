@@ -16,7 +16,7 @@ export const About = () => {
 				I grew up in Livonia, MI, a suburb of Detroit. From a young age I knew I wanted to be an Engineer because my Dad was an Engineer, 
 				and I knew I wanted to be like him. I loved playing with Legos and was fascinated by robots. I was introduced to Scratch, a programming 
 				language for young children, and I fell in love with it. Additionally, I was introduced to Lego Mindstorms, a Lego kit with motors, 
-				sensors, and a programmable controller. I enjoyed playing around with both Scratch and Mindstorms, and I started to develop an interest 
+				sensors, and a programmable controller. I enjoyed playing around with both Scratch and Lego Mindstorms, and I started to develop an interest 
 				in programming and robotics.
 			</Typography>
 			<Typography varient='p'>
@@ -33,11 +33,11 @@ export const About = () => {
 			<Typography varient='p'>
 				I graduated high school in May 2019 and entered the University of Michigan the following fall to study Computer Science. 
 				I joined the Michigan Marching Band and immediately fell in love with the ensemble. I've meet many great friends and had the opportunity 
-				to travel with the Band to the Citrus Bowl, the Big Ten Championship, and the Orange Bowl. During my final year in the band, I served as 
-				the Trombone section leader. 
+				to travel with the Band to the Citrus Bowl, the Big Ten Championship twice, the Orange Bowl, and finally the Fiesta Bowl. During my final 
+				year in the band, I served as the Trombone section leader. 
 			</Typography>
 			<Typography varient='p'>
-				I will soon be graduating from U of M in December 2022. I have not decided where I am going next and I'm actively looking for opportunities.
+				I graduated from U of M in December 2022. I have not decided where I am going next and I'm actively looking for opportunities.
 			</Typography>
 			<Grid container spacing={2} >
 				<Grid item xs={6}>

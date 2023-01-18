@@ -26,19 +26,20 @@ export const Home = (props) => {
                         Software Engineer
                     </Typography>
                     <Typography variant='p'>
-                        I am a Senior at the University of Michigan studying Computer Science with a minor in Music.
-                        I have a strong interest in and am seeking a career in Autonomous Robotics. I have successfully
-                        completed 2 summer internships at Amazon as a Software Development Engineer where I had 
-                        the opportunity to develop my skills in the real world. Outside of classes, I play trombone in
-                        the Michigan Marching Band. I am currently searching for full time opportunities for after 
-                        I graduate in December 2022!
+                        I am a recent graduate from the University of Michigan with a degree 
+                        in Computer Science with a minor in Music seeking to begin my career 
+                        in Software Engineering. I have successfully completed two summer internships 
+                        at Amazon as a Software Development Engineer where I had the opportunity to 
+                        develop my skills in the real world. Outside of class, I played trombone in 
+                        the Michigan Marching Band where I served as the Trombone section leader.
+                        I am currently searching for full time an entry level Software Engineering role.
                         <br/>
                         <br/>
-                        Go ahead and explore my website!
+                        {/* Go ahead and explore my website! */}
                     </Typography>
                 </Grid>
                 <Grid item md={4}>
-                    <img src='./JohnSenior.jpg' alt={'John'} style={imgStyle} />
+                    <img src='./JohnPortrait.jpeg' alt={"John's Portrait"} style={imgStyle} />
                 </Grid>
                 {/* <Grid item md={12}>
                     <Typography variant='p'>
