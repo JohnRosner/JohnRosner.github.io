@@ -32,7 +32,7 @@ export const Home = (props) => {
                         at Amazon as a Software Development Engineer where I had the opportunity to 
                         develop my skills in the real world. Outside of class, I played trombone in 
                         the Michigan Marching Band where I served as the Trombone section leader.
-                        I am currently searching for full time an entry level Software Engineering role.
+                        I am currently searching for a full time entry level Software Engineering role.
                         <br/>
                         <br/>
                         {/* Go ahead and explore my website! */}

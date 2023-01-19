@@ -121,7 +121,7 @@ export const Experience = ({ dark }) => {
                         <br /> <br />
                         - <b>JavaScript:</b> I learned JavaScript (and Typescript) during my internships at Amazon to build the front end of my projects.
                         <br /> <br />
-                        - <b>React:</b> I also learned React during my internships at Amazon to build the front end. I also used React to build this website.
+                        - <b>React:</b> I also learned React during my internships at Amazon to build the front end. Additionally, I used React to build this website.
                         <br /> <br />
                         - <b>C++:</b> I learned C++ when I started college. All my core computer science classes used C++ for their projects. 
                         <br /> <br />
